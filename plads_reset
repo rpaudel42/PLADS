@@ -1,0 +1,27 @@
+#
+# Script to reset PLADS run-time area (i.e., remove temp files, reset directory holding areas, etc.)
+#
+rm changeDetectionValue.txt
+rm bestSub.g
+rm norm*
+rm anom_*_*
+rm anomInst_*_*
+rm pids.txt
+rm numanom.txt
+rm gp*.txt
+rm tempBestSub.g
+rm vertices*.txt
+rm edges*.txt
+rm connectedness_*.txt
+
+rm gbad_anom_output/*
+rm gbad_norm_output/*
+rm best_normative_pattern/*
+rm anomalous_substructure_files/*
+rm norm_substructure_files/*
+
+mv initial_files_for_anom_detection/* graph_input_files
+mv processed*/* graph_input_files
+mv files_being_processed/* graph_input_files
+
+rm graph_input_files/*.anom*

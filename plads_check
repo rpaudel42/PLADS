@@ -1,0 +1,22 @@
+#
+# This script shows what files are in what directories
+# after (or during) PLADS runs.
+#
+echo gbad_anom_output:
+ls -la gbad_anom_output
+echo best_normative_pattern:
+ls -la best_normative_pattern
+echo files_being_processed:
+ls -la files_being_processed
+echo graph_input_files:
+ls -la graph_input_files
+echo initial_files_for_anom_detection:
+ls -la initial_files_for_anom_detection
+echo gbad_norm_output:
+ls -la gbad_norm_output
+echo processed_input_files:
+ls -la processed_input_files
+echo anomalous_substructure_files:
+ls -la anomalous_substructure_files
+echo norm_substructure_files:
+ls -la norm_substructure_files

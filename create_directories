@@ -1,0 +1,14 @@
+#
+# This script creates the directories needed in order to run PLADS.
+#
+# NOTE: This should only need to be run once when installing PLADS.
+#
+mkdir graph_input_files
+mkdir files_being_processed
+mkdir processed_input_files
+mkdir initial_files_for_anom_detection
+mkdir best_normative_pattern
+mkdir anomalous_substructure_files
+mkdir norm_substructure_files
+mkdir gbad_anom_output
+mkdir gbad_norm_output
